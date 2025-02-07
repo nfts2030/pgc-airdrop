@@ -228,7 +228,7 @@ export function AirdropForm() {
 
         {!isConnected && (
           <Alert
-            variant="warning"
+            variant="default"
             className="fixed top-20 left-4 right-4 mx-auto max-w-md bg-yellow-500/20 border-yellow-500/50"
           >
             <AlertCircle className="h-4 w-4" />
@@ -240,4 +240,3 @@ export function AirdropForm() {
     </div>
   )
 }
-
